@@ -1,0 +1,24 @@
+//
+//  ContentView.swift
+//  MVVM_DI_Pattern
+//
+//  Created by Indra on 06/06/26.
+//
+
+import SwiftUI
+
+struct ContentView: View {
+    var body: some View {
+        VStack {
+            Image(systemName: "globe")
+                .imageScale(.large)
+                .foregroundStyle(.tint)
+            Text("Hello, world!")
+        }
+        .padding()
+    }
+}
+
+#Preview {
+    ContentView()
+}
